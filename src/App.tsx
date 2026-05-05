@@ -1,11 +1,17 @@
-
+import Navbar from './components/nav'
+import Header from './components/header'
+import Body from './components/body'
+import Tecnologia from './components/tecnologias'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-red-500'>Ola Mundo !</h1>
+      <Navbar />
+      <Header />
+      <Body />
+      <Tecnologia />
     </>
   )
 }
