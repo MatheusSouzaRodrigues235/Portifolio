@@ -1,7 +1,7 @@
-
 import Navbar from './components/nav'
 import Header from './components/header'
 import Body from './components/body'
+import Tecnologia from './components/tecnologias'
 import './App.css'
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <Navbar />
       <Header />
       <Body />
+      <Tecnologia />
     </>
   )
 }
