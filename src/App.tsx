@@ -2,6 +2,7 @@ import Navbar from './components/nav'
 import Header from './components/header'
 import Body from './components/body'
 import Tecnologia from './components/tecnologias'
+import Escolaridade from './components/escolaridade'
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Body />
       <Tecnologia />
+      <Escolaridade />
     </>
   )
 }
