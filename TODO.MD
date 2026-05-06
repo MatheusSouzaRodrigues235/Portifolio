@@ -5,7 +5,7 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 ## 🚀 Próximas Funcionalidades (Backlog)
 
 - [ ] Seção de Projetos 
-- [ ] Seção de Escolaridades
+- [x] Seção de Escolaridades
 - [ ] Seção de cursos complementares
 - [ ] Seção Voluntariado
 - [ ] Seção de contato
@@ -18,6 +18,7 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 - [ ] Melorar responsividade da página
 
 ## 🐛 Bugs Conhecidos
+- [ ] Bug responsividade no layout mobile
 
 
 ## 💡 Ideias Futuras
