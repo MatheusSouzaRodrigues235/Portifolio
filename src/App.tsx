@@ -3,6 +3,7 @@ import Header from './components/header'
 import Body from './components/body'
 import Tecnologia from './components/tecnologias'
 import Escolaridade from './components/escolaridade'
+import Cursos from './components/cursos'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Body />
       <Tecnologia />
       <Escolaridade />
+      <Cursos />
     </>
   )
 }

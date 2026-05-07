@@ -6,18 +6,23 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 
 - [ ] Seção de Projetos 
 - [x] Seção de Escolaridades
-- [ ] Seção de cursos complementares
+- [x] Seção de cursos complementares
 - [ ] Seção Voluntariado
 - [ ] Seção de contato
+- [ ] Implementar botões na página de tecnologias
 
 
 
 ## 🛠️ Melhorias Técnicas (Refatoração / Tech Debt)
 - [ ] Melhoria da navbar (Fazer ela seguir o usuário)
 - [ ] Melhoria no funcionamento do componente de Tecnologias
-- [ ] Melorar responsividade da página
+- [ ] Melhorar responsividade da página
+- [ ] Melhorar grid da página de tecnologias
+- [ ] Melhorar Página de cursos complementares
+
 
 ## 🐛 Bugs Conhecidos
+- [ ] Bug responsividade no layout mobile
 - [ ] Bug responsividade no layout mobile
 
 

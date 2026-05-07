@@ -1,8 +1,8 @@
 import LogoEtec from "../assets/images/LOGO-ETEC 1.png";
 import LogoUninter from "../assets/images/9f6e1e4d3455e0774a343aed974ac4e9 1.png";
 
-const desktopClasses = "hidden md:grid m-8 grid-flow-row gap-1";
-const mobileClasses = "grid md:hidden m-8 grid-flow-row gap-1";
+const desktopClasses = "hidden md:grid m-8 grid-flow-row gap-1 border-b-4 border-[#9B21E5] ";
+const mobileClasses = "grid md:hidden m-8 grid-flow-row gap-1 border-b-4 border-[#9B21E5]";
 
 const Escolaridade: React.FC = () => {
   return (
