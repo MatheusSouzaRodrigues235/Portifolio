@@ -19,6 +19,7 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 - [ ] Melhorar responsividade da página
 - [ ] Melhorar grid da página de tecnologias
 - [ ] Melhorar Página de cursos complementares
+- [ ] Melhorar Qualidade da imagem no componente voluntariado
 
 
 ## 🐛 Bugs Conhecidos
