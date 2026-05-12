@@ -5,6 +5,7 @@ import Tecnologia from './components/tecnologias'
 import Escolaridade from './components/escolaridade'
 import Cursos from './components/cursos'
 import Voluntariado from './components/voluntariado'
+import Contato from './components/contato'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Escolaridade />
       <Cursos />
       <Voluntariado /> 
+      <Contato />
     </>
   )
 }

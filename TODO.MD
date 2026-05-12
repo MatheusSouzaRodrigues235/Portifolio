@@ -1,4 +1,4 @@
-# 📋 TODO List - PataSphere Portfolio
+# 📋 TODO List -  Portfolio
 
 Este documento serve como um backlog de tarefas e ideias para o desenvolvimento contínuo do projeto.
 
@@ -7,7 +7,7 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 - [ ] Seção de Projetos 
 - [x] Seção de Escolaridades
 - [x] Seção de cursos complementares
-- [ ] Seção Voluntariado
+- [x] Seção Voluntariado
 - [ ] Seção de contato
 - [ ] Implementar botões na página de tecnologias
 
@@ -19,8 +19,8 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 - [ ] Melhorar responsividade da página
 - [ ] Melhorar grid da página de tecnologias
 - [ ] Melhorar Página de cursos complementares
-- [ ] Melhorar Qualidade da imagem no componente voluntariado
-
+- [ ] Melhorar Qualidade da imagem do componente de Voluntariado
+- [ ] Melhoria da responsividade do componente Tecnologias
 
 ## 🐛 Bugs Conhecidos
 - [ ] Bug responsividade no layout mobile

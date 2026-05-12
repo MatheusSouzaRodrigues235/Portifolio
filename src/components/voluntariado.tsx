@@ -19,13 +19,13 @@ const Escolaridade: React.FC = () => {
         <div className="bg-[#13131F] rounded-lg flex">
           <div className="flex items-center justify-center p-4">
             <img
-              className="h-auto max-w-full"
+              className="h-85"
               src={Paroquia}
               alt="image description"
             />
-            <h2 className="text-2xl font-bold  text-center ml-50 py-16 px-6">
+            <h1 className="text-3xl font-bold  text-center ml-50 py-16 px-6">
               Núcleo de transmissão - Pascom - Paróquia Coração de Jesus 
-            </h2>
+            </h1>
           </div>
         </div>
       </div>
@@ -34,20 +34,19 @@ const Escolaridade: React.FC = () => {
       {/* Layout Mobile */}
       <div className={mobileClasses}>
         <div className="bg-[#13131F] rounded-lg content-center ">
-          <h1 className=" text-5xl font-bold mb-4 text-center mg-auto py-16 px-6">
-            Escolaridade
+          <h1 className=" text-5xl font-bold  text-center  py-16 ">
+            VOLUNTARIADO
           </h1>
         </div>
-        <div id="ETEC">
+        <div id="Paroquia">
           <img
-            className="h-auto max-w-full"
+            className="ml-3 h-85"
             src={Paroquia}
             alt="image description"
           />
-          <h2 className=" font-bold  text-center mg-auto py-16 ">
-            TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS - CONCLUÍDO EM 2022 ESCOLA
-            TÉCNICA ESTADUAL PROFESSORA ILZA NASCIMENTO PINTUS - ETEC
-          </h2>
+          <h1 className="text-3xl font-bold    py-16 px-6">
+              Núcleo de transmissão - Pascom - Paróquia Coração de Jesus 
+          </h1>
         </div>
         
       </div>
