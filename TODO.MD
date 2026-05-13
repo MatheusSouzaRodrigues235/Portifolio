@@ -21,6 +21,7 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 - [ ] Melhorar Página de cursos complementares
 - [ ] Melhorar Qualidade da imagem do componente de Voluntariado
 - [ ] Melhoria da responsividade do componente Tecnologias
+- [ ] Melhoria dos paddings de todos os componentes do projeto  
 
 ## 🐛 Bugs Conhecidos
 - [ ] Bug responsividade no layout mobile

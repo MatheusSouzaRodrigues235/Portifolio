@@ -1,6 +1,6 @@
 import Paroquia from "../assets/images/Ellipse 3.png";
 
-const desktopClasses = "hidden md:grid m-8 grid-flow-row gap-1 border-b-4 border-[#9B21E5] ";
+const desktopClasses = "hidden md:grid m-8 grid-flow-row gap-1 border-b-4 border-[#9B21E5] pt-70 pb-70 ";
 const mobileClasses = "grid md:hidden m-8 grid-flow-row gap-1 border-b-4 border-[#9B21E5]";
 
 const Escolaridade: React.FC = () => {
@@ -11,7 +11,7 @@ const Escolaridade: React.FC = () => {
         <div className="bg-[#13131F] rounded-lg content-center ">
           <h1
             id="sobre"
-          className=" text-5xl font-bold mb-4 text-center mg-auto py-16 px-6"
+          className=" text-5xl font-bold mb-4 text-center mg-auto "
           >
             VOLUNTARIADO
           </h1>
