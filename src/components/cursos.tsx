@@ -12,10 +12,10 @@ const Cursos: React.FC = () => {
   return (
     <>
      
-    <div className="pt-60 ">
+    <div className="pt-60 border-b-4 border-[#9B21E5] ">
            <h1 className="text-center text-4xl font-bold pb-20">Cursos Complementares</h1>
 
-      <div id="main" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 m-10 border-b-4 border-[#9B21E5] pb-60 ">
+      <div id="main" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 m-10 pb-60 ">
         <div className="bg-[#13131F] rounded-lg m-4  place-items-center border-b-4 border-[#9B21E5] ">
           <div className=" grid grid-rows  ">
             <div  className="ml-7">
@@ -27,7 +27,7 @@ const Cursos: React.FC = () => {
                   <Pie
                     data={data}
                     cx="50%"
-                    cy="50%"
+                    cy="50%" 
                     innerRadius={70}
                     outerRadius={85}
                     dataKey="value"
