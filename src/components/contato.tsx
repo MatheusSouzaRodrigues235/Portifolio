@@ -63,7 +63,7 @@ const Contato: React.FC = () => {
     <div className="mt-12 flex flex-col md:flex-row items-center justify-around gap-10 px-10">
       <div className="flex items-center">
         <a
-          href="www.linkedin.com/in/matheus-rodrigues-262108246"
+          href="https://www.linkedin.com/in/matheus-rodrigues-262108246"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-5 hover:scale-105 transition-transform"

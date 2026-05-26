@@ -1,15 +1,16 @@
 import LogoEtec from "../assets/images/LOGO-ETEC 1.png";
 import LogoUninter from "../assets/images/9f6e1e4d3455e0774a343aed974ac4e9 1.png";
 
-const desktopClasses = "hidden md:grid m-8 grid-flow-row gap-1 border-b-4 border-[#9B21E5]  pb-60";
+const desktopClasses = "hidden md:grid m-8 grid-flow-row gap-1  pb-60 ";
 const mobileClasses = "grid md:hidden m-8 grid-flow-row gap-1 border-b-4 border-[#9B21E5]";
 
 const Escolaridade: React.FC = () => {
   return (
     <>
       {/* Layout Desktop */}
+      <div className="pt-30 pb-60 border-b-4 border-[#9B21E5]"> 
       <div className={desktopClasses}>
-        <div className="bg-[#13131F] rounded-lg content-center ">
+        <div className="bg-[#13131F] rounded-lg content-center  ">
           <h1
             id="sobre"
           className=" text-5xl font-bold mb-4 text-center mg-auto py-16 px-6"
@@ -44,7 +45,7 @@ const Escolaridade: React.FC = () => {
           </div>
         </div>
       </div>
-
+    </div>
 
       {/* Layout Mobile */}
       <div className={mobileClasses}>
