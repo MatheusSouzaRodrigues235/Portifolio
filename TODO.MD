@@ -4,7 +4,7 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 
 ## 🚀 Próximas Funcionalidades (Backlog)
 
-- [ ] Seção de Projetos 
+- [x] Seção de Projetos 
 - [x] Seção de Escolaridades
 - [x] Seção de cursos complementares
 - [x] Seção Voluntariado
@@ -15,6 +15,8 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 
 ## 🛠️ Melhorias Técnicas (Refatoração / Tech Debt)
 - [ ] Melhoria da navbar (Fazer ela seguir o usuário)
+- [ ] Melhorar as imagens de fundo do componente de Projetos
+- [ ] Melhorar as responsividade do componente Projetos
 - [ ] Melhoria no funcionamento do componente de Tecnologias
 - [ ] Melhorar responsividade da página
 - [ ] Melhorar grid da página de tecnologias
