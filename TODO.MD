@@ -10,6 +10,8 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 - [x] Seção Voluntariado
 - [ ] Seção de contato
 - [ ] Implementar botões na página de tecnologias
+- [ ] Implementar funcionalidade de download do meu currículo (GERAR PDF e Realizar o download)
+- [ ] Implementar funcionalidade de download do meu currículo (GERAR PDF e Realizar o download)
 
 
 
@@ -31,7 +33,6 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 
 
 ## 💡 Ideias Futuras
-
 
 ---
 **Legenda:**
