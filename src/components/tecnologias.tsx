@@ -10,6 +10,7 @@ import trelloIcon from "../assets/images/icons/trello.png";
 import gitIcon from "../assets/images/icons/git_original_wordmark_logo_icon_146510.png";
 import jsIcon from "../assets/images/icons/javascript_original_logo_icon_146455.png";
 import dotNetIcon from "../assets/images/icons/dot_net_original_wordmark_logo_icon_146547.png";
+import springBootIcon from "../assets/images/icons/simple-icons--springboot.svg";
 
 interface TecnologiaData {
   id: number;
@@ -21,6 +22,7 @@ const listaTecnologias: TecnologiaData[] = [
   { id: 1, src: htmlIcon, alt: "HTML5" },
   { id: 2, src: cssIcon, alt: "CSS3" },
   { id: 3, src: javaIcon, alt: "Java" },
+  { id: 11, src: springBootIcon, alt: "Spring Boot" },
   { id: 4, src: phpIcon, alt: "PHP" },
   { id: 5, src: nodeIcon, alt: "Node.js" },
   { id: 6, src: trelloIcon, alt: "Trello" },
