@@ -8,6 +8,7 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 - [x] Seção de Escolaridades
 - [x] Seção de cursos complementares
 - [x] Seção Voluntariado
+- [x] Implementar modal do componente de projetos
 - [ ] Seção de contato
 - [ ] Implementar botões na página de tecnologias
 - [ ] Implementar funcionalidade de download do meu currículo (GERAR PDF e Realizar o download)
@@ -26,10 +27,12 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 - [ ] Melhorar Qualidade da imagem do componente de Voluntariado
 - [ ] Melhoria da responsividade do componente Tecnologias
 - [ ] Melhoria dos paddings de todos os componentes do projeto  
+- [ ] Melhoria do modal de componente Projetos 
 
 ## 🐛 Bugs Conhecidos
 - [ ] Bug responsividade no layout mobile
-- [ ] Bug responsividade no layout mobile
+- [ ] Bug responsividade no componente de projetos
+
 
 
 ## 💡 Ideias Futuras
