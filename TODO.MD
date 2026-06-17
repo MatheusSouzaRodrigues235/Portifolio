@@ -9,10 +9,10 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 - [x] Seção de cursos complementares
 - [x] Seção Voluntariado
 - [x] Implementar modal do componente de projetos
-- [ ] Seção de contato
+- [x] Seção de contato
 - [ ] Implementar botões na página de tecnologias
 - [ ] Implementar funcionalidade de download do meu currículo (GERAR PDF e Realizar o download)
-- [ ] Implementar funcionalidade de download do meu currículo (GERAR PDF e Realizar o download)
+- [ ] Colocar todos os dados que vão ser renderizados na pasta Data
 
 
 
@@ -28,6 +28,11 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 - [ ] Melhoria da responsividade do componente Tecnologias
 - [ ] Melhoria dos paddings de todos os componentes do projeto  
 - [ ] Melhoria do modal de componente Projetos 
+- [x] Melhoria na responsividade do componente contato
+- [ ] Melhoria: adicionar dados de contato em um arquivo na pasta Data
+- [ ] Melhoria: Ajustar o componente escolaridade ao principio DRY
+
+
 
 ## 🐛 Bugs Conhecidos
 - [ ] Bug responsividade no layout mobile
@@ -35,7 +40,6 @@ Este documento serve como um backlog de tarefas e ideias para o desenvolvimento 
 
 
 
-## 💡 Ideias Futuras
 
 ---
 **Legenda:**
