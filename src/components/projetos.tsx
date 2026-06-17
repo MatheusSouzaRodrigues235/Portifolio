@@ -29,7 +29,7 @@ const Projetos: React.FC = () => {
           </div>
         </div>
        
-        <div className="grid grid-cols-2 md:grid-cols-4 py-20 gap-8 px-10 mx-auto ml-80 mt-20">
+        <div className="grid grid-cols-2 md:grid-cols-4 py-20 gap-8 px-10 mx-auto  mt-20">{/*ml-80 */}
           {/* Função map para renderizar os projetos dinamicamente */}
           {ListaProjetos.map((projeto) => {
             
@@ -113,26 +113,36 @@ const Projetos: React.FC = () => {
               {selectedProject.description}
             </p>
             
-            <a
-              href={selectedProject.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-[#9B21E5] hover:bg-[#7A18B0] text-white font-semibold py-2 px-4 rounded-full transition-colors duration-150 border border-gray-800 mb-4"
-            >
-              Ver projeto
-            </a>
+            <div className="flex items-center gap-4 mb-4">
+              <a
+                href={selectedProject.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-[#9B21E5] hover:bg-[#7A18B0] text-white font-semibold py-2 px-4 rounded-full transition-colors duration-150 border border-gray-800 mb-4"
+              >
+                Ver projeto
+              </a>
 
-            <h4 className="text-sm font-semibold text-gray-400 mb-2">Tecnologias utilizadas:</h4>
-            <div className="flex items-center gap-3 bg-black/40 px-4 py-2 rounded-full backdrop-blur-sm w-fit border border-gray-800">
-              {selectedProject.tecnologias?.map((techIcon, index) => (
-                <img
-                  key={index}
-                  src={techIcon}
-                  alt="tecnologia"
-                  className="w-6 h-6 hover:scale-110 transition-transform duration-150"
-                />
-              ))}
+              <div className="ml-auto">
+                <h4 className="text-sm font-semibold text-gray-400 mb-2">Data de Publicação : {selectedProject.dataPublicacao}</h4>
+              </div>
+              
+            </div> 
+            
+            <div className="flex flex-col gap-3 mr-4 items-center">
+              <h4 className=" text-sm font-semibold text-gray-400 mb-2">Tecnologias utilizadas:</h4>
+              <div className="flex items-center gap-3 bg-black/40 px-4 py-2 rounded-full backdrop-blur-sm w-fit border border-gray-800">
+                {selectedProject.tecnologias?.map((techIcon, index) => (
+                  <img
+                    key={index}
+                    src={techIcon}
+                    alt="tecnologia"
+                    className="w-6 h-6 hover:scale-110 transition-transform duration-150"
+                  />
+                ))}
+              </div>
             </div>
+
           </div>
         </div>
       )}
