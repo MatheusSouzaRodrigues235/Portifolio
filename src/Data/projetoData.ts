@@ -26,6 +26,7 @@ export interface ProjetosData {
   image?: string;
   tecnologias?: string[];
   link?: string;
+  dataPublicacao?: string;
 }
 
 
@@ -34,8 +35,9 @@ const ListaProjetos: ProjetosData[] = [
   {
     id: 1,
     title: "Agendou Tosou",
-    description: "Descrição do projeto 1",
+    description: "Este projeto é um sistema de agendamento de serviços de uma barbearia, foi desenvolvido utilizando Node.js, Express e Handlebars para o frontend. Sistema permite aos clientes agendar horários para cortes de cabelo, enquanto o barbeiro pode gerenciar os agendamentos e visualizar o calendário de seus compromisso. O Sistema foi desenvolvido como parte de um projeto integrado quando estava cursando o curso de Análise e Desenvolvimento de Sistemas na UNIVAP .",
     link: "https://github.com/MatheusSouzaRodrigues235/ProjetoIntegrado2Node",
+    dataPublicacao: "12/06/2023",
     image: Banner,
     tecnologias: [htmlIcon, cssIcon, jsIcon, nodeIcon, handleBarIcon, gitIcon],
   },
@@ -44,6 +46,7 @@ const ListaProjetos: ProjetosData[] = [
     title: "Heros Games",
     description: "Descrição do projeto 2",
     link:"https://github.com/MatheusSouzaRodrigues235/Projeto-Integrado-Ads-1Trimestre",
+    dataPublicacao:"15/05/2023",
     image: herosGames,
     tecnologias:[javaIcon, trelloIcon, mySQL , netBeansIcon, gitIcon],
   },
@@ -52,6 +55,7 @@ const ListaProjetos: ProjetosData[] = [
     title: "Api com Java Spring Boot",
     description: "Descrição do projeto 2",
     link:"https://github.com/MatheusSouzaRodrigues235/Trabalho-Uninter-Api-Rest-Spring-Boot",
+    dataPublicacao:"15/12/2025",
     image: JavaSpringBoot,
     tecnologias:[javaIcon,  mySQL , springBootIcon, gitIcon],
   },
@@ -60,8 +64,8 @@ const ListaProjetos: ProjetosData[] = [
     title: "E-commerce de veículos (TCC ETEC)",
     description:"E-commerce de veículos desenvolvido como trabalho de conclusão de curso.",
     link:"https://github.com/MatheusSouzaRodrigues235/E-commerce-Veiculos",
+    dataPublicacao: "07/06/2022",
     image: tccImage,
     tecnologias:[phpIcon, htmlIcon, cssIcon, mySQL, gitIcon, trelloIcon,tailwindIcon],
   }
- 
 ];
