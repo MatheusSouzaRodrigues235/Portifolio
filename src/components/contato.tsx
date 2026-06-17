@@ -76,7 +76,7 @@ const Contato: React.FC = () => {
               alt="Logo Linkedin"
             />
             <span className="hidden md:inline text-xl md:text-1xl font-bold">
-              https://shre.ink/matheus-rodrigues
+              Matheus Rodrigues
             </span>
           </a>
         </div>
@@ -95,7 +95,7 @@ const Contato: React.FC = () => {
               alt="Logo Github"
             />
             <span className="hidden md:inline text-xl md:text-1xl font-bold">
-              https://shre.ink/matheus-rodrigues235
+              matheus-rodrigues235
             </span>
           </a>
         </div>
