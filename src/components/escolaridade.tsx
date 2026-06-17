@@ -7,7 +7,7 @@ const Escolaridade: React.FC = () => {
   return (
     <>
       {/* Layout Desktop */}
-      <div className="pt-30 pb-60 border-b-4 border-[#9B21E5]"> 
+      <div className="pt-30  border-b-4 border-[#9B21E5]"> 
       <div className={desktopClasses}>
         <div className="bg-[#13131F] rounded-lg content-center  ">
           <h1
