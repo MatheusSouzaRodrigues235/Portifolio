@@ -5,7 +5,7 @@ import { chartList, COLORS} from "../Data/cursosCompData";
 const Cursos: React.FC = () => {
   return (
     <>
-      <div className="pt-60 border-b-4 border-[#9B21E5]">
+      <div className="pt-20 border-b-4 border-[#9B21E5]">
         <h1 className="text-center text-4xl font-bold pb-20">
           Cursos Complementares
         </h1>
