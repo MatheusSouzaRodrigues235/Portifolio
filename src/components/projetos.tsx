@@ -29,7 +29,7 @@ const Projetos: React.FC = () => {
           </div>
         </div>
        
-        <div className="grid grid-cols-2 md:grid-cols-4 py-20 gap-8 px-10 mx-auto  mt-20">{/*ml-80 */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 py-20 gap-8 px-10 mx-auto mt-20">
           {/* Função map para renderizar os projetos dinamicamente */}
           {ListaProjetos.map((projeto) => {
             
@@ -48,7 +48,7 @@ const Projetos: React.FC = () => {
                 tabIndex={0}
                 onClick={() => handleProjectClick(projeto.id)}
                 onKeyDown={handleKeyDown}
-                className="relative group overflow-hidden rounded-xl w-full max-w-sm h-64 bg-gray-900 text-white cursor-pointer select-none transition-all duration-200 focus-visible:outline  focus-visible:outline-offset-4 focus-visible:outline-[#9B21E5] active:scale-[0.98]"
+                className="relative group overflow-hidden rounded-xl w-full max-w-sm h-64 bg-gray-900 text-white cursor-pointer select-none transition-all duration-200 focus-visible:outline focus-visible:outline-offset-4 focus-visible:outline-[#9B21E5] active:scale-[0.98] mx-auto"
               >
                 <img
                   src={projeto.image}

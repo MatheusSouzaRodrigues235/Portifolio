@@ -37,7 +37,7 @@ const Tecnologia: React.FC = () => {
     <section className="pt-30 pb-60 border-b-4 border-[#9B21E5]">
       <h1
         id="sobre"
-        className="text-7xl font-bold mb-4 text-center m-auto py-16 px-6 pb-30"
+        className="text-4xl font-bold mb-4 text-center m-auto py-16 px-6 pb-30"
       >
         Tecnologias
       </h1>
