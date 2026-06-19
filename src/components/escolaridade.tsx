@@ -19,7 +19,7 @@ const Escolaridade: React.FC = () => {
             className="bg-[#13131F] rounded-lg p-6 flex flex-col md:flex-row items-center gap-6"
           >
             {escolaridade.image && (
-              <div className="w-24 h-24 flex-shrink-0 flex items-center justify-center bg-white/5 rounded-lg p-2">
+              <div className="w-24 h-24 shrink-0 flex items-center justify-center bg-white/5 rounded-lg p-2">
                 <img
                   className="max-h-full max-w-full object-contain"
                   src={escolaridade.image}
@@ -28,6 +28,9 @@ const Escolaridade: React.FC = () => {
               </div>
             )}
             <div className="flex flex-col justify-center text-center md:text-left">
+              <h2 className="text-xl md:text-2xl font-bold text-white mb-2">
+                {escolaridade.Curso}
+              </h2>
               <h2 className="text-xl md:text-2xl font-bold text-white mb-2">
                 {escolaridade.Instituicao}
               </h2>
