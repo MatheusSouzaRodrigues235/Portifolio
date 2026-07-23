@@ -20,4 +20,10 @@ const chartList: CourseChart[] = [
     progresso: 100,
     linkCertificado:"https://www.credly.com/earner/earned/badge/da465797-ba5e-45da-8b5e-f3593454641b"
   },
+  {
+    id: 3,
+    courseTitle: "Trilha Digital - Coders 24 - Data Science",
+    progresso: 100,
+    linkCertificado:"https://site.ada.tech/certificado?code=3e4dbc71-05cf-aed1-2079-fa3a933cd308"
+  },
 ];
