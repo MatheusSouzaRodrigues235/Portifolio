@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-
+import IconCurriculo from '../assets/images/streamline--business-user-curriculum.svg';
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
@@ -19,6 +19,7 @@ const Navbar: React.FC = () => {
             <a href="#home" className="hover:text-[#9B21E5] transition-colors duration-200">Home</a>
             <a href="#projetos" className="hover:text-[#9B21E5] transition-colors duration-200">Projetos</a>
             <a href="#sobre" className="hover:text-[#9B21E5] transition-colors duration-200">Sobre Mim</a>
+            <a href="https://drive.google.com/file/d/1nrQB9oh_7Al5pQp5YYYh_k_g6D4arKMY/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-[#9B21E5] transition-colors duration-200 "><div className='flex items-center gap-2'><img src={IconCurriculo} alt="Currículo" className="w-6 h-6"  /> <p className=''>Curriculo</p> </div></a>
           </div>
 
           {/* Botão Hambúrguer para Mobile */}
