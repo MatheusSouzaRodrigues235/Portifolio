@@ -30,5 +30,17 @@ const chartList: CourseChart[] = [
     id: 4,
     courseTitle: "Desenvolvimento em Java Script - SENAI",
     progresso: 60,
-  }
+  },
+  
+  {
+    id: 5,
+    courseTitle: "Formação Lógica de Programação - DIGITAL INNOVATION ONE",
+    progresso: 20,
+  },
+  {
+    id: 6,
+    courseTitle: "JavaScript e TypeScript do básico ao avançado - JS + TS - Luiz Otávio Miranda - UDEMY",
+    progresso: 4,
+  },
+
 ];
