@@ -26,4 +26,9 @@ const chartList: CourseChart[] = [
     progresso: 100,
     linkCertificado:"https://site.ada.tech/certificado?code=3e4dbc71-05cf-aed1-2079-fa3a933cd308"
   },
+  {
+    id: 4,
+    courseTitle: "Desenvolvimento em Java Script - SENAI",
+    progresso: 60,
+  }
 ];
