@@ -29,7 +29,7 @@ const chartList: CourseChart[] = [
   {
     id: 4,
     courseTitle: "Desenvolvimento em Java Script - SENAI",
-    progresso: 60,
+    progresso: 90,
   },
   
   {
